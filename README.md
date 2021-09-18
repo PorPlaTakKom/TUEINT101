@@ -178,6 +178,45 @@ public class demo {
 }
 ```
 
+### Ternary Operator
+
+```text
+variable = Expression1 ? Expression2: Expression3
+```
+
+```text
+if(Expression1)
+{
+    variable = Expression2;
+}
+else
+{
+    variable = Expression3;
+}
+```
+
+```text
+import java.io.*;
+ 
+class Ternary {
+    public static void main(String[] args)
+    {
+ 
+        // variable declaration
+        int n1 = 5, n2 = 10, max;
+ 
+        System.out.println("First num: " + n1);
+        System.out.println("Second num: " + n2);
+ 
+        // Largest among n1 and n2
+        max = (n1 > n2) ? n1 : n2;
+ 
+        // Print the largest number
+        System.out.println("Maximum is = " + max);
+    }
+}
+```
+
 ## Loop
 
 ### While loop
